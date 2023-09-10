@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: rgb(240, 246, 246);
+}
+
+.name {
+   font-weight: bolder;
+    justify-content: center;
+    margin-left: 20px;
+    
+}
+
+nav {
+    background-color: aqua;
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: :right;
+    align-items: center;
+}
+nav ul  {
+    display: flex;
+   justify-content: right;
+   float: right;
+}
+nav li {
+    margin-left: 50px;
+    list-style: none;
+    float: right;
+}
+nav ul li a {
+    text-decoration: none;
+    
+    color: rgb(164, 30, 30);
+
+}
+
+nav ul li a:hover {
+    
+    color: blue;
+    font-size: 2rem;
+    border: 1px solid blue;
+}
+.image{
+    
+  
+   display: flex;
+    border: 2px solid white;
+    width: 100%;
+    background-color: rgb(4, 33, 33);
+    
+   
+}
+.image span{
+    font-size: 100px;
+    color: bisque;
+    margin-top: 250px;
+}
+.about{
+    border: 10px solid black;
+    height: 1500px;
+    background-color: rgba(175, 182, 182, 0.402);
+}
+
+.about-me {
+    font-size: 5rem;
+    font-weight: 500;
+    margin-left: 20px;
+    font-style: italic;
+}
+.about{
+   
+    
+}
+.about2{
+    font-size: 3rem;
+    margin: 5px;
+    color: rgb(65, 63, 63);
+}
+.education{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem;
+}
+.projects span {
+    font-size: 5rem;
+    
+}
+.project1{
+    font-size: 2rem;
+    color: rgb(65, 63, 63);
+    
+}
+.project{
+    margin-left: 50px;
+}
+.project2{
+    font-size: 2rem;
+    color: rgb(65, 63, 63);
+    
+}
+.project3{
+    font-size: 2rem;
+    color: rgb(65, 63, 63);
+    
+}
+.project4{
+    font-size: 2rem;
+    color: rgb(65, 63, 63);
+    
+}
+.contact{
+    font-size: 10rem;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    color: rgb(233, 233, 241);
+   font-family: serif;
+}
+.container{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 5px solid black;
+    margin: 4px;
+    
+}
+.box{
+    
+    height: 300px;
+    width: 300px;
+    border: 3px solid rgb(63, 54, 54);
+    margin-top: 20px;
+}
+
+#box1 img {
+    margin: 10px;
+    
+}
+#box1 span{
+    font-size: 2rem;
+}
+.phone-logo{
+   font-size: 50px;
+}
+#box1 i{
+margin: 5px;
+
+}
